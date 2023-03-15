@@ -1,0 +1,33 @@
+.box {
+    display: inline-block;
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: pink; /*Fondo*/
+    color: white;/*Color texto*/
+}
+
+#three{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    background-color: pink;
+}
+#two {
+    position: fixed; /*Se va a ir a su etiqueta más cercana*/
+    top: 130px;
+    left: 20px;
+    background: palevioletred;
+}
+
+#one{
+    position: sticky;
+    top: 80;
+    left: 20;
+    background-color: palevioletred;
+}
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow: scroll; 
+    padding-left: 150px /*Espacio entre el contenido y su borde */
+}

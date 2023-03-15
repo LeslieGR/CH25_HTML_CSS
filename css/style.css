@@ -1,0 +1,21 @@
+/*Para el menú, si le pongo auto a mi width */
+nav{background-color: orchid; 
+width: auto;
+height: 50px;
+word-spacing: 55px;
+text-align: center;
+padding: 25px;
+margin: 10px;
+
+}
+a{
+    text-decoration: none;/*para quitarle la línea de abajo*/
+    color: aliceblue; /*Color de la letra*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Fuente de la letra*/
+    font-size: 25 px;/*Tamaño de la fuente de los titulos*/
+}
+a:hover{
+    background-color: dodgerblue;
+    border-radius: 20px;
+    padding: 15px;
+}
